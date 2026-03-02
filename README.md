@@ -93,9 +93,9 @@ The dataset used is the **German Credit Risk Dataset**, obtained from Kaggle. It
 
 **Rows with missing values in:**
 
--saving accounts
+- saving accounts
 
--checking account
+- checking account
 **were removed as these are important indicators of financial status.***
 
 **After cleaning:**
@@ -107,69 +107,69 @@ Final dataset size: 520 rows × 11 columns
 
 **Histograms for:**
 
--age
+- age
 
--credit amount
+- credit amount
 
--duration
+- duration
 
 **Box plots revealed:**
 
--Most applicants are relatively young
+- Most applicants are relatively young
 
--Credit amounts are generally moderate
+- Credit amounts are generally moderate
 
--Loan duration varies significantly
+- Loan duration varies significantly
 
 **Bivariate Analysis**
 
--Gender-based comparison of credit amount
+- Gender-based comparison of credit amount
 
--Housing type vs loan purpose
+- Housing type vs loan purpose
 
--Correlation between credit amount and duration (moderate positive correlation)
+- Correlation between credit amount and duration (moderate positive correlation)
 
--Higher credit amounts were associated with higher risk levels
+- Higher credit amounts were associated with higher risk levels
 
--Scatter plots and pivot tables were used to visualize relationships between:
+- Scatter plots and pivot tables were used to visualize relationships between:
 
-  -Age
+  - Age
 
-  -Credit amount
+  - Credit amount
 
-  -Duration
+  - Duration
 
-  -Risk
+  - Risk
 
 ### 🧠 Feature Engineering
 
 **Selected features:**
 
--age
+&emsp; - age
 
--sex
+&emsp; - sex
 
--job
+&emsp; - job
 
--housing
+- housing
 
--saving accounts
+- saving accounts
 
--checking account
+- checking account
 
--credit amount
+- credit amount
 
--duration
+- duration
 
 **Target variable:**
 
--risk
+- risk
 
 **Processing steps:**
 
--Categorical features were encoded using Label Encoding
+- Categorical features were encoded using Label Encoding
 
--Scaling was not applied since tree-based models do not require it
+- Scaling was not applied since tree-based models do not require it
 
 ### 🤖 Model Training
 
@@ -177,19 +177,19 @@ The dataset was split into training and testing sets using **train_test_split**.
 
 **Models trained:**
 
--Decision Tree Classifier
+- Decision Tree Classifier
 
--Random Forest Classifier
+- Random Forest Classifier
 
--Extra Trees Classifier
+- Extra Trees Classifier
 
--XGBoost Classifier
+- XGBoost Classifier
 
 **Techniques used:**
 
--GridSearchCV for hyperparameter tuning
+- GridSearchCV for hyperparameter tuning
 
--Parallel processing using n_jobs = -1
+- Parallel processing using n_jobs = -1
 
 📊 Model Evaluation
 
@@ -197,29 +197,29 @@ Models were evaluated using accuracy score and best parameter selection.
 
 **Results:**
 
--Extra Trees Classifier achieved the highest accuracy: 0.66
+- Extra Trees Classifier achieved the highest accuracy: 0.66
 
--XGBoost Classifier achieved an accuracy of 0.63, using parameters adjusted for class imbalance
+- XGBoost Classifier achieved an accuracy of 0.63, using parameters adjusted for class imbalance
 
 Comparison of multiple models helped identify the best-performing algorithm.
 
 ### 🛠️ Technologies Used
 
--Python
+- Python
 
--Pandas
+- Pandas
 
--NumPy
+- NumPy
 
--Matplotlib
+- Matplotlib
 
--Seaborn
+- Seaborn
 
--Scikit-learn
+- Scikit-learn
 
--XGBoost
+- XGBoost
 
--Jupyter Notebook
+- Jupyter Notebook
 
 ### 📁 Project Structure
 
@@ -235,15 +235,15 @@ Comparison of multiple models helped identify the best-performing algorithm.
 
 🚀 Future Improvements
 
--Handle class imbalance using SMOTE or class weighting
+- Handle class imbalance using SMOTE or class weighting
 
--Add cross-validation metrics
+- Add cross-validation metrics
 
--Improve feature engineering
+- Improve feature engineering
 
--Deploy using Streamlit or Flask
+- Deploy using Streamlit or Flask
 
--Add ROC curve and confusion matrix
+- Add ROC curve and confusion matrix
 
 ##👨‍💻 Author
 
