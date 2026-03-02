@@ -223,15 +223,15 @@ Comparison of multiple models helped identify the best-performing algorithm.
 
 ### 📁 Project Structure
 
-├── data/
-│   └── credit_data.csv
-├── notebooks/
-│   └── credit_risk_model.ipynb
-├── models/
-│   └── trained_model.pkl
-├── encoders/
-│   └── label_encoders.pkl
-└── README.md
+├── data/<br>
+│   └── credit_data.csv <br>
+├── notebooks/ <br>
+│   └── credit_risk_model.ipynb <br>
+├── models/ <br>
+│   └── trained_model.pkl <br>
+├── encoders/ <br>
+│   └── label_encoders.pkl <br>
+└── README.md <br>
 
 🚀 Future Improvements
 
@@ -245,7 +245,7 @@ Comparison of multiple models helped identify the best-performing algorithm.
 
 - Add ROC curve and confusion matrix
 
-##👨‍💻 Author
+## 👨‍💻 Author
 
 ### Abdul Wahab
 **Data Science & analytics Intern**
