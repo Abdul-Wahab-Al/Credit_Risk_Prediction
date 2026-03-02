@@ -133,13 +133,13 @@ Final dataset size: 520 rows × 11 columns
 
 - Scatter plots and pivot tables were used to visualize relationships between:
 
-&emsp;  - Age
+&emsp;- Age
 
-&emsp;  - Credit amount
+&emsp;- Credit amount
 
-&emsp;  - Duration
+&emsp;- Duration
 
-&emsp;  - Risk
+&emsp;- Risk
 
 ### 🧠 Feature Engineering
 
