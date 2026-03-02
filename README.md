@@ -132,14 +132,10 @@ Final dataset size: 520 rows × 11 columns
 - Higher credit amounts were associated with higher risk levels
 
 - Scatter plots and pivot tables were used to visualize relationships between:
-
-&emsp;- Age
-
-&emsp;- Credit amount
-
-&emsp;- Duration
-
-&emsp;- Risk
+  - Age
+  - Credit amount
+  - Duratiom
+  - Risk
 
 ### 🧠 Feature Engineering
 
